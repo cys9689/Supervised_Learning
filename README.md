@@ -1,6 +1,12 @@
 # Supervised_Learning
 ## Instructions
-this project use the imbalanced-learn library to resample the data and build and evaluate logistic regression classifiers using the resampled data. The datasets were inside of the challenge-resources file. This project include two parts: Sampling  and Ensemble Learners.
+this project use the imbalanced-learn library to resample the data and build and evaluate logistic regression classifiers using the resampled data. The datasets were inside of the challenge-resources file. This project include two parts: Sampling  and Ensemble Learners
+## Background
+Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans. Therefore, we’ll need to employ different techniques to train and evaluate models with unbalanced classes. we use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+## Dataset:
+Location: "Challenge/Module-17-Challenge-Resources/LoanStats_2019Q1.csv"
+The dataset contains the 2019 financial information for individual. Columns include the loan amount, interest rate, home ownership, annual income, loan status.... etc. Overall, we wants to use this information to see does people consider as a potential credit risk person.
+
 ## Oversampling & Undersampling
 ## Oversampling
 In this section, we will compare two oversampling algorithms to determine which algorithm results in the best performance. You will oversample the data using the naive random oversampling algorithm and the SMOTE algorithm. For each algorithm, be sure to complete the folliowing steps:
